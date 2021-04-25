@@ -7,6 +7,10 @@
   <title>Libros</title>
 
   <link href="{{ asset('css/app.css') }}" rel='stylesheet' type='text/css' />
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/alertify.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert2@7.0.9/dist/sweetalert2.all.js"></script>
 
 </head>
 
