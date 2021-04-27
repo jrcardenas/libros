@@ -52,7 +52,7 @@
             <td class="px-4 py-3">
 
 
-                <form method="POST"  onsubmit="return confirmation({{$libro->ISBN}})" action="/libros/{{$libro->id}}">
+                <form method="POST"  onsubmit="return confirmation('{{$libro->ISBN}}')" action="/libros/{{$libro->id}}">
 
 
                     <x-button  class='bg-black-500 text-white font-bold py-2 px-4 rounded hover:bg-balck-700'>

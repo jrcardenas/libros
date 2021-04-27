@@ -10,7 +10,6 @@
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/alertify.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://unpkg.com/sweetalert2@7.0.9/dist/sweetalert2.all.js"></script>
 
 </head>
 
@@ -24,6 +23,8 @@
     </div>  
     <h1 class="text-center text-white text-2xl">Libros virtuales</h1>
   <div  class="flex text-white">
+
+  <a href="{{ route('dashboard') }}"class="ml-3 px-2 py-2 hover:text-green-300">Inicio</a>
 
       @if (Route::has('login'))
       @auth

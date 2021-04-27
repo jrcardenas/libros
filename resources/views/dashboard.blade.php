@@ -8,9 +8,32 @@
       </a>
 
     </x-slot>
-    <h1 class=' font-bold grid justify-items-center text-4xl'>
-    Login correcto</h1>
 
+    @if (Route::has('login'))
+      @auth
+
+    <h1 class=' font-bold grid justify-items-center text-2xl'>
+    Login correcto</h1>
+    @endif
+
+@endauth
+    <h1 class=' font-bold grid justify-items-center text-xl'>
+    Bienvenido a la libreria virtual
+  
+    @if (Route::has('login'))
+      @auth
+
+      {{ Auth::user()->name }}</h1>
+
+  </h1>
+
+
+    
+
+   
+    @endif
+
+@endauth
     </x-auth-card>
 </x-guest-layout>
 

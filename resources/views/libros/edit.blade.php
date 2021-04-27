@@ -85,7 +85,7 @@
    
 
     <x-button class="ml-4">
-      {{ __('Añadir') }}
+      {{ __('Editar libro') }}
     </x-button>
   </div>
 </form>
